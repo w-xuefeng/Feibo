@@ -428,7 +428,7 @@ int main(){
 	a = initlargeNumber(1,Anumber);b = initlargeNumber(1,Bnumber);
 	c = initlargeNumber(1,Cnumber);d = initlargeNumber(1,Dnumber);
     
-        //初始化四个大整数1，1，1，00
+        //初始化四个大整数1，1，1，0
     
     
 	Matrix matrix = initMatrix(a,b,c,d);
