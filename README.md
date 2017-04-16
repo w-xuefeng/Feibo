@@ -32,7 +32,7 @@ f(n-1) & f(n-2)
 ```
 
 # 3.定义结构体
-```
+```C++
 typedef struct largeNumber{//大整数结构体
 	
 	int length;//大整数的长度
@@ -50,7 +50,7 @@ typedef struct matrix{//2*2矩阵结构体
 ```
 # 4.函数的声明与定义
 - 函数声明清单
-    ```
+    ```C++
     int max(int,int);
     //返回两个整数中较大的值
     
@@ -103,7 +103,7 @@ typedef struct matrix{//2*2矩阵结构体
     //输出矩阵
     ```
 - 函数的定义
-    ```
+    ```C++
     largeNum largeNumApplyRoom(largeNum a){
     //为一个大整数申请空间，使用前必须定义长度
     
@@ -414,7 +414,7 @@ typedef struct matrix{//2*2矩阵结构体
     }    
     ```
 # 5.主函数
-```
+```C++
 int main(){
 
 	largeNum a,b,c,d;
@@ -443,7 +443,7 @@ matrix =
 \end{matrix}
 \right]
 ```
-```
+```C++
     resault = matrixPower(matrix,n-1);
              //计算矩阵的（n-1）次方
     
