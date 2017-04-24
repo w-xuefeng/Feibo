@@ -36,12 +36,31 @@ Matrix matrixMultiply(Matrix,Matrix);
 Matrix matrixPower(matrix,int);
 void matrixPrintf(Matrix);
 
+void feibonaqi(int);
+
 
 int main(){
 
+	int maxI;
+
+	printf("input a number to be max item:\n");
+
+	scanf("%d",&maxI);
+	
+	for (int i = 1; i <= maxI; ++i){
+
+		feibonaqi(i);
+
+	}
+
+	return 0;
+}
+
+void feibonaqi(int n){
+
 	largeNum a,b,c,d;
+
 	Matrix resault;
-	int n = 100;
 
 	int Anumber[1] = {1};int Bnumber[1] = {1};
 	int Cnumber[1] = {1};int Dnumber[1] = {0};
@@ -66,8 +85,8 @@ int main(){
 
 	printf("\n\n");
 
-	return 0;
 }
+
 
 largeNum largeNumApplyRoom(largeNum a){
 
@@ -303,9 +322,6 @@ void largeNumPrintf(largeNum a){
 
 }
 
-
-
-
 Matrix initMatrix(largeNum a,largeNum b,largeNum c,largeNum d){
 
 	Matrix matrix;
@@ -342,7 +358,17 @@ Matrix matrixMultiply(Matrix a,Matrix b){
 
 Matrix matrixPower(matrix a,int n){
 
-	if (n==1){
+	if(n==0){
+
+		largeNum a,b;
+
+		int Anumber[1] = {1};int Bnumber[1] = {0};
+
+		a = initlargeNumber(1,Anumber);b = initlargeNumber(1,Bnumber);
+
+		return 	initMatrix(a,b,b,a);
+
+	}else if (n==1){
 
 		return a;
 
