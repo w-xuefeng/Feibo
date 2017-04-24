@@ -49,8 +49,8 @@ typedef struct matrix{//2*2矩阵结构体
 
 ```
 # 4.函数声明清单
-    ```C++
-        int max(int,int);
+```CPP
+     int max(int,int);
     //返回两个整数中较大的值
     
     int min(int,int);
@@ -100,5 +100,4 @@ typedef struct matrix{//2*2矩阵结构体
     
     void matrixPrintf(Matrix);
     //输出矩阵
-    ```
-    
+```    
