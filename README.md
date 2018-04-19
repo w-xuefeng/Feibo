@@ -17,6 +17,9 @@
   <li>
     <a href="#4函数声明清单">4.函数声明清单</a>
   </li>
+  <li>
+    <a href="#5博客链接">5.博客链接</a>
+  </li>	
 </ul>
 
 ---
@@ -99,5 +102,9 @@ typedef struct matrix{//2*2矩阵结构体
     //矩阵的幂运算
     
     void matrixPrintf(Matrix);
-    //输出矩阵
-    
+    //输出矩阵
+
+```
+# 5.博客链接
+ 
+↖(^ω^)↗ Welcome to https://blog.wangxuefeng.com.cn/archives/feibo.html
